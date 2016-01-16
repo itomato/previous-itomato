@@ -1,0 +1,1134 @@
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1854638852/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1854638852.dir/build.make CMakeFiles/cmTryCompileExec1854638852.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1854638852.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec1854638852.dir/CheckIncludeFiles.c.o   -c /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1854638852.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec1854638852/fast] Error 2
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(){return 0;}
+
+Determining if files SDL2/SDL_config.h exist failed with the following output:
+Change Dir: /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3785829062/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3785829062.dir/build.make CMakeFiles/cmTryCompileExec3785829062.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3785829062.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec3785829062.dir/CheckIncludeFiles.c.o   -c /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'SDL2/SDL_config.h' file not found
+#include <SDL2/SDL_config.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3785829062.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec3785829062/fast] Error 2
+
+Source:
+/* */
+#include <SDL2/SDL_config.h>
+
+
+int main(){return 0;}
+
+Determining if the function memalign exists failed with the following output:
+Change Dir: /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2635557283/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2635557283.dir/build.make CMakeFiles/cmTryCompileExec2635557283.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2635557283.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec2635557283.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.0.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2635557283
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2635557283.dir/link.txt --verbose=1
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2635557283.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2635557283  
+Undefined symbols for architecture x86_64:
+  "_memalign", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTryCompileExec2635557283] Error 1
+make: *** [cmTryCompileExec2635557283/fast] Error 2
+
+
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2890629675/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2890629675.dir/build.make CMakeFiles/cmTryCompileExec2890629675.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2890629675.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec2890629675.dir/CheckIncludeFiles.c.o   -c /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2890629675.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec2890629675/fast] Error 2
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(){return 0;}
+
+Determining if files SDL2/SDL_config.h exist failed with the following output:
+Change Dir: /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec895713744/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec895713744.dir/build.make CMakeFiles/cmTryCompileExec895713744.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec895713744.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec895713744.dir/CheckIncludeFiles.c.o   -c /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'SDL2/SDL_config.h' file not found
+#include <SDL2/SDL_config.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec895713744.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec895713744/fast] Error 2
+
+Source:
+/* */
+#include <SDL2/SDL_config.h>
+
+
+int main(){return 0;}
+
+Determining if the function memalign exists failed with the following output:
+Change Dir: /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1245599929/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1245599929.dir/build.make CMakeFiles/cmTryCompileExec1245599929.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1245599929.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec1245599929.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.0.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1245599929
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1245599929.dir/link.txt --verbose=1
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1245599929.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1245599929  
+Undefined symbols for architecture x86_64:
+  "_memalign", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTryCompileExec1245599929] Error 1
+make: *** [cmTryCompileExec1245599929/fast] Error 2
+
+
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3756251362/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3756251362.dir/build.make CMakeFiles/cmTryCompileExec3756251362.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3756251362.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec3756251362.dir/CheckIncludeFiles.c.o   -c /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3756251362.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec3756251362/fast] Error 2
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(){return 0;}
+
+Determining if files SDL2/SDL_config.h exist failed with the following output:
+Change Dir: /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4056005736/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec4056005736.dir/build.make CMakeFiles/cmTryCompileExec4056005736.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4056005736.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec4056005736.dir/CheckIncludeFiles.c.o   -c /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'SDL2/SDL_config.h' file not found
+#include <SDL2/SDL_config.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec4056005736.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec4056005736/fast] Error 2
+
+Source:
+/* */
+#include <SDL2/SDL_config.h>
+
+
+int main(){return 0;}
+
+Determining if the function memalign exists failed with the following output:
+Change Dir: /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2655939549/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2655939549.dir/build.make CMakeFiles/cmTryCompileExec2655939549.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2655939549.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec2655939549.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.0.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2655939549
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2655939549.dir/link.txt --verbose=1
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2655939549.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2655939549  
+Undefined symbols for architecture x86_64:
+  "_memalign", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTryCompileExec2655939549] Error 1
+make: *** [cmTryCompileExec2655939549/fast] Error 2
+
+
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1343555389/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1343555389.dir/build.make CMakeFiles/cmTryCompileExec1343555389.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1343555389.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec1343555389.dir/CheckIncludeFiles.c.o   -c /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1343555389.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec1343555389/fast] Error 2
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(){return 0;}
+
+Determining if files SDL2/SDL_config.h exist failed with the following output:
+Change Dir: /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec832023824/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec832023824.dir/build.make CMakeFiles/cmTryCompileExec832023824.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec832023824.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec832023824.dir/CheckIncludeFiles.c.o   -c /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'SDL2/SDL_config.h' file not found
+#include <SDL2/SDL_config.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec832023824.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec832023824/fast] Error 2
+
+Source:
+/* */
+#include <SDL2/SDL_config.h>
+
+
+int main(){return 0;}
+
+Determining if the function memalign exists failed with the following output:
+Change Dir: /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec309346730/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec309346730.dir/build.make CMakeFiles/cmTryCompileExec309346730.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec309346730.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec309346730.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.0.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec309346730
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec309346730.dir/link.txt --verbose=1
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec309346730.dir/CheckFunctionExists.c.o  -o cmTryCompileExec309346730  
+Undefined symbols for architecture x86_64:
+  "_memalign", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTryCompileExec309346730] Error 1
+make: *** [cmTryCompileExec309346730/fast] Error 2
+
+
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2170335889/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2170335889.dir/build.make CMakeFiles/cmTryCompileExec2170335889.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2170335889.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec2170335889.dir/CheckIncludeFiles.c.o   -c /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2170335889.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec2170335889/fast] Error 2
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(){return 0;}
+
+Determining if files SDL2/SDL_config.h exist failed with the following output:
+Change Dir: /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2816642514/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2816642514.dir/build.make CMakeFiles/cmTryCompileExec2816642514.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2816642514.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec2816642514.dir/CheckIncludeFiles.c.o   -c /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'SDL2/SDL_config.h' file not found
+#include <SDL2/SDL_config.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2816642514.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec2816642514/fast] Error 2
+
+Source:
+/* */
+#include <SDL2/SDL_config.h>
+
+
+int main(){return 0;}
+
+Determining if the function memalign exists failed with the following output:
+Change Dir: /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1368118606/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1368118606.dir/build.make CMakeFiles/cmTryCompileExec1368118606.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1368118606.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec1368118606.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.0.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1368118606
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1368118606.dir/link.txt --verbose=1
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1368118606.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1368118606  
+Undefined symbols for architecture x86_64:
+  "_memalign", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTryCompileExec1368118606] Error 1
+make: *** [cmTryCompileExec1368118606/fast] Error 2
+
+
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec115901244/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec115901244.dir/build.make CMakeFiles/cmTryCompileExec115901244.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec115901244.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec115901244.dir/CheckIncludeFiles.c.o   -c /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec115901244.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec115901244/fast] Error 2
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(){return 0;}
+
+Determining if files SDL2/SDL_config.h exist failed with the following output:
+Change Dir: /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec497731706/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec497731706.dir/build.make CMakeFiles/cmTryCompileExec497731706.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec497731706.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec497731706.dir/CheckIncludeFiles.c.o   -c /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'SDL2/SDL_config.h' file not found
+#include <SDL2/SDL_config.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec497731706.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec497731706/fast] Error 2
+
+Source:
+/* */
+#include <SDL2/SDL_config.h>
+
+
+int main(){return 0;}
+
+Determining if the function memalign exists failed with the following output:
+Change Dir: /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec916022746/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec916022746.dir/build.make CMakeFiles/cmTryCompileExec916022746.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec916022746.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec916022746.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.0.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec916022746
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec916022746.dir/link.txt --verbose=1
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec916022746.dir/CheckFunctionExists.c.o  -o cmTryCompileExec916022746  
+Undefined symbols for architecture x86_64:
+  "_memalign", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTryCompileExec916022746] Error 1
+make: *** [cmTryCompileExec916022746/fast] Error 2
+
+
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3369589188/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3369589188.dir/build.make CMakeFiles/cmTryCompileExec3369589188.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3369589188.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec3369589188.dir/CheckIncludeFiles.c.o   -c /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3369589188.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec3369589188/fast] Error 2
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(){return 0;}
+
+Determining if files SDL2/SDL_config.h exist failed with the following output:
+Change Dir: /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3586993375/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3586993375.dir/build.make CMakeFiles/cmTryCompileExec3586993375.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3586993375.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec3586993375.dir/CheckIncludeFiles.c.o   -c /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'SDL2/SDL_config.h' file not found
+#include <SDL2/SDL_config.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3586993375.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec3586993375/fast] Error 2
+
+Source:
+/* */
+#include <SDL2/SDL_config.h>
+
+
+int main(){return 0;}
+
+Determining if the function memalign exists failed with the following output:
+Change Dir: /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3111190350/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3111190350.dir/build.make CMakeFiles/cmTryCompileExec3111190350.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3111190350.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec3111190350.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.0.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3111190350
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3111190350.dir/link.txt --verbose=1
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3111190350.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3111190350  
+Undefined symbols for architecture x86_64:
+  "_memalign", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTryCompileExec3111190350] Error 1
+make: *** [cmTryCompileExec3111190350/fast] Error 2
+
+
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec900740323/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec900740323.dir/build.make CMakeFiles/cmTryCompileExec900740323.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec900740323.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec900740323.dir/CheckIncludeFiles.c.o   -c /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec900740323.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec900740323/fast] Error 2
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(){return 0;}
+
+Determining if files SDL2/SDL_config.h exist failed with the following output:
+Change Dir: /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1460968636/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1460968636.dir/build.make CMakeFiles/cmTryCompileExec1460968636.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1460968636.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec1460968636.dir/CheckIncludeFiles.c.o   -c /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'SDL2/SDL_config.h' file not found
+#include <SDL2/SDL_config.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1460968636.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec1460968636/fast] Error 2
+
+Source:
+/* */
+#include <SDL2/SDL_config.h>
+
+
+int main(){return 0;}
+
+Determining if the function memalign exists failed with the following output:
+Change Dir: /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3600349167/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3600349167.dir/build.make CMakeFiles/cmTryCompileExec3600349167.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Downloads/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3600349167.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec3600349167.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.0.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3600349167
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3600349167.dir/link.txt --verbose=1
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3600349167.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3600349167  
+Undefined symbols for architecture x86_64:
+  "_memalign", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTryCompileExec3600349167] Error 1
+make: *** [cmTryCompileExec3600349167/fast] Error 2
+
+
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1137084825/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1137084825.dir/build.make CMakeFiles/cmTryCompileExec1137084825.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1137084825.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec1137084825.dir/CheckIncludeFiles.c.o   -c /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1137084825.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec1137084825/fast] Error 2
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(){return 0;}
+
+Determining if files SDL2/SDL_config.h exist failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec461378593/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec461378593.dir/build.make CMakeFiles/cmTryCompileExec461378593.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec461378593.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec461378593.dir/CheckIncludeFiles.c.o   -c /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'SDL2/SDL_config.h' file not found
+#include <SDL2/SDL_config.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec461378593.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec461378593/fast] Error 2
+
+Source:
+/* */
+#include <SDL2/SDL_config.h>
+
+
+int main(){return 0;}
+
+Determining if the function memalign exists failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2936599931/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2936599931.dir/build.make CMakeFiles/cmTryCompileExec2936599931.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2936599931.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec2936599931.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.0.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2936599931
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2936599931.dir/link.txt --verbose=1
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2936599931.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2936599931  
+Undefined symbols for architecture x86_64:
+  "_memalign", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTryCompileExec2936599931] Error 1
+make: *** [cmTryCompileExec2936599931/fast] Error 2
+
+
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4087904508/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec4087904508.dir/build.make CMakeFiles/cmTryCompileExec4087904508.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4087904508.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec4087904508.dir/CheckIncludeFiles.c.o   -c /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec4087904508.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec4087904508/fast] Error 2
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(){return 0;}
+
+Determining if files SDL2/SDL_config.h exist failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2913282960/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2913282960.dir/build.make CMakeFiles/cmTryCompileExec2913282960.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2913282960.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec2913282960.dir/CheckIncludeFiles.c.o   -c /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'SDL2/SDL_config.h' file not found
+#include <SDL2/SDL_config.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2913282960.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec2913282960/fast] Error 2
+
+Source:
+/* */
+#include <SDL2/SDL_config.h>
+
+
+int main(){return 0;}
+
+Determining if the function memalign exists failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec957537884/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec957537884.dir/build.make CMakeFiles/cmTryCompileExec957537884.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec957537884.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec957537884.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.0.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec957537884
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec957537884.dir/link.txt --verbose=1
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec957537884.dir/CheckFunctionExists.c.o  -o cmTryCompileExec957537884  
+Undefined symbols for architecture x86_64:
+  "_memalign", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTryCompileExec957537884] Error 1
+make: *** [cmTryCompileExec957537884/fast] Error 2
+
+
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2890584402/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2890584402.dir/build.make CMakeFiles/cmTryCompileExec2890584402.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2890584402.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec2890584402.dir/CheckIncludeFiles.c.o   -c /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2890584402.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec2890584402/fast] Error 2
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(){return 0;}
+
+Determining if files SDL2/SDL_config.h exist failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2025655908/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2025655908.dir/build.make CMakeFiles/cmTryCompileExec2025655908.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2025655908.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec2025655908.dir/CheckIncludeFiles.c.o   -c /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'SDL2/SDL_config.h' file not found
+#include <SDL2/SDL_config.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2025655908.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec2025655908/fast] Error 2
+
+Source:
+/* */
+#include <SDL2/SDL_config.h>
+
+
+int main(){return 0;}
+
+Determining if the function memalign exists failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1137848712/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1137848712.dir/build.make CMakeFiles/cmTryCompileExec1137848712.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1137848712.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec1137848712.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.0.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1137848712
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1137848712.dir/link.txt --verbose=1
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1137848712.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1137848712  
+Undefined symbols for architecture x86_64:
+  "_memalign", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTryCompileExec1137848712] Error 1
+make: *** [cmTryCompileExec1137848712/fast] Error 2
+
+
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2883612966/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2883612966.dir/build.make CMakeFiles/cmTryCompileExec2883612966.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2883612966.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec2883612966.dir/CheckIncludeFiles.c.o   -c /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2883612966.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec2883612966/fast] Error 2
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(){return 0;}
+
+Determining if files SDL2/SDL_config.h exist failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3956040811/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3956040811.dir/build.make CMakeFiles/cmTryCompileExec3956040811.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3956040811.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec3956040811.dir/CheckIncludeFiles.c.o   -c /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'SDL2/SDL_config.h' file not found
+#include <SDL2/SDL_config.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3956040811.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec3956040811/fast] Error 2
+
+Source:
+/* */
+#include <SDL2/SDL_config.h>
+
+
+int main(){return 0;}
+
+Determining if the function memalign exists failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1040086700/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1040086700.dir/build.make CMakeFiles/cmTryCompileExec1040086700.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1040086700.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTryCompileExec1040086700.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.0.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1040086700
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1040086700.dir/link.txt --verbose=1
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1040086700.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1040086700  
+Undefined symbols for architecture x86_64:
+  "_memalign", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTryCompileExec1040086700] Error 1
+make: *** [cmTryCompileExec1040086700/fast] Error 2
+
+
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c59ac/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c59ac.dir/build.make CMakeFiles/cmTC_c59ac.dir/build
+Building C object CMakeFiles/cmTC_c59ac.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_c59ac.dir/CheckIncludeFiles.c.o   -c /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c59ac.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTC_c59ac/fast] Error 2
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(void){return 0;}
+
+Determining if files SDL2/SDL_config.h exist failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_226f1/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_226f1.dir/build.make CMakeFiles/cmTC_226f1.dir/build
+Building C object CMakeFiles/cmTC_226f1.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_226f1.dir/CheckIncludeFiles.c.o   -c /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'SDL2/SDL_config.h' file not found
+#include <SDL2/SDL_config.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_226f1.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTC_226f1/fast] Error 2
+
+Source:
+/* */
+#include <SDL2/SDL_config.h>
+
+
+int main(void){return 0;}
+
+Determining if the function memalign exists failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_89eb6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_89eb6.dir/build.make CMakeFiles/cmTC_89eb6.dir/build
+Building C object CMakeFiles/cmTC_89eb6.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc    -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_89eb6.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.4.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_89eb6
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89eb6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_89eb6.dir/CheckFunctionExists.c.o  -o cmTC_89eb6  
+Undefined symbols for architecture x86_64:
+  "_memalign", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_89eb6] Error 1
+make: *** [cmTC_89eb6/fast] Error 2
+
+
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_47e4d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_47e4d.dir/build.make CMakeFiles/cmTC_47e4d.dir/build
+Building C object CMakeFiles/cmTC_47e4d.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_47e4d.dir/CheckIncludeFiles.c.o   -c /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_47e4d.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTC_47e4d/fast] Error 2
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(void){return 0;}
+
+Determining if files SDL2/SDL_config.h exist failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5ca37/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5ca37.dir/build.make CMakeFiles/cmTC_5ca37.dir/build
+Building C object CMakeFiles/cmTC_5ca37.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_5ca37.dir/CheckIncludeFiles.c.o   -c /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'SDL2/SDL_config.h' file not found
+#include <SDL2/SDL_config.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_5ca37.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTC_5ca37/fast] Error 2
+
+Source:
+/* */
+#include <SDL2/SDL_config.h>
+
+
+int main(void){return 0;}
+
+Determining if the function memalign exists failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_898db/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_898db.dir/build.make CMakeFiles/cmTC_898db.dir/build
+Building C object CMakeFiles/cmTC_898db.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc    -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_898db.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.4.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_898db
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_898db.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_898db.dir/CheckFunctionExists.c.o  -o cmTC_898db  
+Undefined symbols for architecture x86_64:
+  "_memalign", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_898db] Error 1
+make: *** [cmTC_898db/fast] Error 2
+
+
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f4b86/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f4b86.dir/build.make CMakeFiles/cmTC_f4b86.dir/build
+Building C object CMakeFiles/cmTC_f4b86.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_f4b86.dir/CheckIncludeFiles.c.o   -c /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_f4b86.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTC_f4b86/fast] Error 2
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(void){return 0;}
+
+Determining if files SDL2/SDL_config.h exist failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b38de/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b38de.dir/build.make CMakeFiles/cmTC_b38de.dir/build
+Building C object CMakeFiles/cmTC_b38de.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_b38de.dir/CheckIncludeFiles.c.o   -c /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'SDL2/SDL_config.h' file not found
+#include <SDL2/SDL_config.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_b38de.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTC_b38de/fast] Error 2
+
+Source:
+/* */
+#include <SDL2/SDL_config.h>
+
+
+int main(void){return 0;}
+
+Determining if the function memalign exists failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d19f9/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d19f9.dir/build.make CMakeFiles/cmTC_d19f9.dir/build
+Building C object CMakeFiles/cmTC_d19f9.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc    -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_d19f9.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.4.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d19f9
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d19f9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d19f9.dir/CheckFunctionExists.c.o  -o cmTC_d19f9  
+Undefined symbols for architecture x86_64:
+  "_memalign", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_d19f9] Error 1
+make: *** [cmTC_d19f9/fast] Error 2
+
+
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_887c0/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_887c0.dir/build.make CMakeFiles/cmTC_887c0.dir/build
+Building C object CMakeFiles/cmTC_887c0.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_887c0.dir/CheckIncludeFiles.c.o   -c /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_887c0.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTC_887c0/fast] Error 2
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(void){return 0;}
+
+Determining if files SDL2/SDL_config.h exist failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_52c24/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_52c24.dir/build.make CMakeFiles/cmTC_52c24.dir/build
+Building C object CMakeFiles/cmTC_52c24.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_52c24.dir/CheckIncludeFiles.c.o   -c /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'SDL2/SDL_config.h' file not found
+#include <SDL2/SDL_config.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_52c24.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTC_52c24/fast] Error 2
+
+Source:
+/* */
+#include <SDL2/SDL_config.h>
+
+
+int main(void){return 0;}
+
+Determining if the function memalign exists failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f83d1/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f83d1.dir/build.make CMakeFiles/cmTC_f83d1.dir/build
+Building C object CMakeFiles/cmTC_f83d1.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc    -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_f83d1.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.4.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f83d1
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f83d1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f83d1.dir/CheckFunctionExists.c.o  -o cmTC_f83d1  
+Undefined symbols for architecture x86_64:
+  "_memalign", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_f83d1] Error 1
+make: *** [cmTC_f83d1/fast] Error 2
+
+
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a314e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a314e.dir/build.make CMakeFiles/cmTC_a314e.dir/build
+Building C object CMakeFiles/cmTC_a314e.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_a314e.dir/CheckIncludeFiles.c.o   -c /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_a314e.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTC_a314e/fast] Error 2
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(void){return 0;}
+
+Determining if files SDL2/SDL_config.h exist failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_765e7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_765e7.dir/build.make CMakeFiles/cmTC_765e7.dir/build
+Building C object CMakeFiles/cmTC_765e7.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_765e7.dir/CheckIncludeFiles.c.o   -c /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'SDL2/SDL_config.h' file not found
+#include <SDL2/SDL_config.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_765e7.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTC_765e7/fast] Error 2
+
+Source:
+/* */
+#include <SDL2/SDL_config.h>
+
+
+int main(void){return 0;}
+
+Determining if the function memalign exists failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_61c07/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_61c07.dir/build.make CMakeFiles/cmTC_61c07.dir/build
+Building C object CMakeFiles/cmTC_61c07.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc    -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_61c07.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.4.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_61c07
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61c07.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_61c07.dir/CheckFunctionExists.c.o  -o cmTC_61c07  
+Undefined symbols for architecture x86_64:
+  "_memalign", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_61c07] Error 1
+make: *** [cmTC_61c07/fast] Error 2
+
+
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a7bc4/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a7bc4.dir/build.make CMakeFiles/cmTC_a7bc4.dir/build
+Building C object CMakeFiles/cmTC_a7bc4.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_a7bc4.dir/CheckIncludeFiles.c.o   -c /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_a7bc4.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTC_a7bc4/fast] Error 2
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(void){return 0;}
+
+Determining if files SDL2/SDL_config.h exist failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_41d3d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_41d3d.dir/build.make CMakeFiles/cmTC_41d3d.dir/build
+Building C object CMakeFiles/cmTC_41d3d.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_41d3d.dir/CheckIncludeFiles.c.o   -c /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'SDL2/SDL_config.h' file not found
+#include <SDL2/SDL_config.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_41d3d.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTC_41d3d/fast] Error 2
+
+Source:
+/* */
+#include <SDL2/SDL_config.h>
+
+
+int main(void){return 0;}
+
+Determining if the function memalign exists failed with the following output:
+Change Dir: /Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_97e53/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_97e53.dir/build.make CMakeFiles/cmTC_97e53.dir/build
+Building C object CMakeFiles/cmTC_97e53.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc    -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_97e53.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.4.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_97e53
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97e53.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_97e53.dir/CheckFunctionExists.c.o  -o cmTC_97e53  
+Undefined symbols for architecture x86_64:
+  "_memalign", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_97e53] Error 1
+make: *** [cmTC_97e53/fast] Error 2
+
+

@@ -1,0 +1,12 @@
+/Users/wm/Code/previous-code-559-branches-branch_mmu/python-ui/CMakeFiles/hatariui_man.dir
+/Users/wm/Code/previous-code-559-branches-branch_mmu/src/gui-sdl/CMakeFiles/GuiSdl.dir
+/Users/wm/Code/previous-code-559-branches-branch_mmu/src/CMakeFiles/osx_bundle_dirs.dir
+/Users/wm/Code/previous-code-559-branches-branch_mmu/src/CMakeFiles/Previous.dir
+/Users/wm/Code/previous-code-559-branches-branch_mmu/src/dimension/CMakeFiles/Dimension.dir
+/Users/wm/Code/previous-code-559-branches-branch_mmu/src/dsp/CMakeFiles/DSP.dir
+/Users/wm/Code/previous-code-559-branches-branch_mmu/src/cpu/CMakeFiles/gencpu.dir
+/Users/wm/Code/previous-code-559-branches-branch_mmu/src/cpu/CMakeFiles/UaeCpu.dir
+/Users/wm/Code/previous-code-559-branches-branch_mmu/src/slirp/CMakeFiles/Slirp.dir
+/Users/wm/Code/previous-code-559-branches-branch_mmu/src/cpu/CMakeFiles/build68k.dir
+/Users/wm/Code/previous-code-559-branches-branch_mmu/src/debug/CMakeFiles/Debug.dir
+/Users/wm/Code/previous-code-559-branches-branch_mmu/CMakeFiles/distclean.dir
